@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+.player-music {
+  background-color: #0f172a !important;
+  height: 6rem;
+ 
+}
+.rhap-time, .rhap_current-time {
+  color: #fff !important
+}
+::selection {
+  background-color: transparent;
+  color: turquoise;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(50, 60, 73); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(39, 42, 54); 
+}
